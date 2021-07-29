@@ -58,10 +58,10 @@ public class EmployeeProblemStatement {
             System.out.print(i.Name+" ");
         }
 
-        System.out.println();
 
 
 //        Name of all employees belonging to one particular region e.g. Bangalore
+        System.out.println();
         List<Employee> tempList2 = list.stream().filter(e ->e.Region=="Bangalore").collect(Collectors.toList());
         System.out.print("6.Employees belongs to Bangalore :");
         for (Employee i: tempList2) {
